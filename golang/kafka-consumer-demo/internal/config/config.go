@@ -18,10 +18,10 @@ type KafkaConfig struct {
 // Kafka Config with credentials
 func GetKafkaConfig() KafkaConfig {
 	return KafkaConfig{
-		Brokers:  []string{"es-demo-kafka-bootstrap-tools.apps.67eb6a82dbbf3678605ecc92.ap1.techzone.ibm.com:443"},
-		Topic:    "DOOR.BADGEIN",
-		Username: "python-consumer-1",
-		Password: "FDSrACfYignZqQPTJApM842jYJ8UlzWR",
+		Brokers:  []string{"Your Kafka bootstrap server url"},
+		Topic:    "Your Topic Name",
+		Username: "Your Username",
+		Password: "Your Password",
 	}
 }
 
