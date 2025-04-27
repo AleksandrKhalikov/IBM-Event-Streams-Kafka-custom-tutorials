@@ -2,7 +2,7 @@ from consumer_setup import create_consumer
 import json
 
 # Replace with your Kafka credentials and topic
-bootstrap_servers = ['es-demo-kafka-bootstrap-tools.apps.67eb6a82dbbf3678605ecc92.ap1.techzone.ibm.com:443']
+bootstrap_servers = ['Your Kafka bootstrap server url']
 topic = 'Your Topic Name'  # Replace with your topic name
 username = 'Your Username'  # Replace with your username
 password = 'Your Password'  # Replace with your password
